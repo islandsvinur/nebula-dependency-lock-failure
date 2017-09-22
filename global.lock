@@ -1,0 +1,61 @@
+{
+    "_global_": {
+        "nebula-dependency-lock-failure:sub": {
+            "project": true
+        }
+    },
+    "compile": {
+        "org.mockito:mockito-core": {
+            "locked": "2.9.0",
+            "requested": "2.+"
+        }
+    },
+    "compileClasspath": {
+        "org.mockito:mockito-core": {
+            "locked": "2.9.0",
+            "requested": "2.+"
+        }
+    },
+    "default": {
+        "org.mockito:mockito-core": {
+            "locked": "2.9.0",
+            "requested": "2.+"
+        }
+    },
+    "runtime": {
+        "org.mockito:mockito-core": {
+            "locked": "2.9.0",
+            "requested": "2.+"
+        }
+    },
+    "runtimeClasspath": {
+        "org.mockito:mockito-core": {
+            "locked": "2.9.0",
+            "requested": "2.+"
+        }
+    },
+    "testCompile": {
+        "org.mockito:mockito-core": {
+            "locked": "2.9.0",
+            "requested": "2.+"
+        }
+    },
+    "testCompileClasspath": {
+        "org.mockito:mockito-core": {
+            "locked": "2.9.0",
+            "requested": "2.+"
+        }
+    },
+    "testRuntime": {
+        "org.mockito:mockito-core": {
+            "locked": "2.9.0",
+            "requested": "2.+"
+        }
+    },
+    "testRuntimeClasspath": {
+        "org.mockito:mockito-core": {
+            "locked": "2.9.0",
+            "requested": "2.+"
+        }
+    }
+}
