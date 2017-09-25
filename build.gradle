@@ -7,15 +7,24 @@
  * user guide available at https://docs.gradle.org/3.0/userguide/tutorial_java_projects.html
  */
 
-plugins {
-  id "nebula.dependency-lock" version "4.9.4"
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+
+  dependencies {
+    classpath "com.netflix.nebula:gradle-dependency-lock-plugin:4.9.4"
+  }
 }
 
 repositories {
   mavenCentral()
 }
 
-apply plugin: 'java'
+allprojects {
+  apply plugin: 'java'
+  apply plugin: 'nebula.dependency-lock'
+}
 
 dependencies {
   compile 'org.mockito:mockito-core:2.+'
