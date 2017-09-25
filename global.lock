@@ -2,6 +2,16 @@
     "_global_": {
         "nebula-dependency-lock-failure:sub": {
             "project": true
+        },
+        "org.mockito:mockito-core": {
+            "firstLevelTransitive": [
+                "nebula-dependency-lock-failure:sub",
+                "nebula-dependency-lock-failure:sub",
+                "nebula-dependency-lock-failure:sub",
+                "nebula-dependency-lock-failure:sub",
+                "nebula-dependency-lock-failure:sub"
+            ],
+            "locked": "2.9.0"
         }
     },
     "compile": {

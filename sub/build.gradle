@@ -1,3 +1,6 @@
 
 apply plugin: 'java'
 
+dependencies {
+  compile 'org.mockito:mockito-core:2.+'
+}
